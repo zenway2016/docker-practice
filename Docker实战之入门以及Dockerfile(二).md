@@ -1,4 +1,4 @@
-上一篇[Docker实战之入门以及Dockerfile(一)](https://github.com/billycyzhang/docker/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%80%29.md)
+上一篇[Docker实战之入门以及Dockerfile(一)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%80%29.md)
 
 ##中间件镜像
 
@@ -293,4 +293,4 @@ MariaDB [(none)]> show databases;
 
 验证结果: 只要保证数据在，重新创建一个容器挂载回之前的数据目录，业务即可恢复（容器可随意删除、创建）
 
-下一篇[Docker实战之入门以及Dockerfile(三)](https://github.com/billycyzhang/docker/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%89%29.md)
+下一篇[Docker实战之入门以及Dockerfile(三)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%89%29.md)
