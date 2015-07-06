@@ -1,4 +1,10 @@
+
 #Docker实战之入门以及Dockerfile(一) 
+文章内容，由【[Docker实训课程](https://csphere.cn/training)】[第一讲视频](http://pan.baidu.com/s/1hq2COGc)翻译整理而成
+
+[培训代码](https://github.com/nicescale/docker-training) https://github.com/nicescale/docker-training
+
+[虚拟机镜像](http://market.aliyun.com/products/56014007/jxsc000181.html) http://market.aliyun.com/products/56014007/
 
 ## 一、Docker是什么？
 
@@ -11,7 +17,7 @@
 - 运输手续繁多及运输环节多
 - 劳动强度大，及船舶周转慢
 
-#####在集装箱出现后，完全改变了这种状况，是由于集装箱：
+###在集装箱出现后，完全改变了这种状况，是由于集装箱：
 
 - 规则标准化，大大减少了包装费用
 - 大大提升了货物装卸效率、及运输效率
@@ -32,7 +38,7 @@
 ## 二、Docker的组成
 
 #### Docker是一个C/S架构
-![](https://discuss.csphere.cn/uploads/default/original/2X/7/7b4dd48085a1ab2c99213c0d0035c3a649546e82.png)
+![](https://discuss.csphere.cn/uploads/default/optimized/2X/4/4ae4f9f4583f00766f8126e232d0d5e60042a363_1_666x500.jpg)
 
 - Docker Client： Docker的客户端
 - Docker Server： Docker daemon的主要组成部分，接收用户通过Docker Client发送的请求，并按照相应的路由规则实现路由分发
@@ -44,7 +50,7 @@
 > 
 **Registry在构建自动化平台，起着非常重要的作用！**
 
-![](https://discuss.csphere.cn/uploads/default/original/2X/b/bc96c09283f20c62b07e1ae97932bd0ec6081d74.png)
+![](https://discuss.csphere.cn/uploads/default/optimized/2X/6/6643a54f646047a9dbf31cce424408b4d3fe5ee3_1_666x500.jpg)
 
 
 _提示：Docker镜像运行之后会成为Docker容器----通过 docker run命令_
@@ -72,7 +78,7 @@ _提示：Docker镜像运行之后会成为Docker容器----通过 docker run命�
 > worpdress(应用镜像)
 
 ####什么是Dockerfile？
-![](https://discuss.csphere.cn/uploads/default/optimized/2X/5/5063e79f71906ca6da1c9698ba49c54f4b3c8305_1_666x500.png)
+![](https://discuss.csphere.cn/uploads/default/original/2X/8/8f12e062a5b2c17e8f502b01fc87948ee77453df.jpg)
 > Dockerfile是自动构建docker镜像的配置文件，Dockerfile中的命令非常类似linux shell下的命令
 
 > Dockerfile,可以让用户自定义构建docker镜像，支持以 # 开头的注释行
@@ -234,3 +240,9 @@ csphere/centos                         7.1                 185ef7b101a8        4
 >`ps -a` 会查看到所有的容器列表
 
 下一篇[Docker实战之入门以及Dockerfile(二)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%BA%8C%29.md)
+***
+说明，文章由[cSphere-希云](https://csphere.cn)所有，转载请整体转载，并保留原文链接，且不得修改原文！
+
+转载，请联系"cSphere"微信公众号
+
+![](https://discuss.csphere.cn/uploads/default/original/2X/7/72cc34cb366c3c6ae4659bfeb6fc80f4e87be735.jpg)

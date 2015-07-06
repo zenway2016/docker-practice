@@ -1,9 +1,16 @@
+#Docker实战之入门以及Dockerfile(三) 
 [Docker实战之入门以及Dockerfile(一)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%80%29.md)
 
-[docker实战之入门以及Dockerfile(二)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%BA%8C%29.md)
+[Docker实战之入门以及Dockerfile(二)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%BA%8C%29.md)
+
+文章内容，由【[Docker实训课程](https://csphere.cn/training)】[第一讲视频](http://pan.baidu.com/s/1hq2COGc)翻译整理而成
+
+[培训代码](https://github.com/nicescale/docker-training) https://github.com/nicescale/docker-training
+
+[虚拟机镜像](http://market.aliyun.com/products/56014007/jxsc000181.html) http://market.aliyun.com/products/56014007/
 ##应用镜像
 
-##csphre/wordpress:4.2
+##csphere/wordpress:4.2
 
 ```
 # cd docker-training/wordpress/
@@ -27,7 +34,7 @@ entrypoint ["/init.sh", "/usr/bin/supervisord", "-n", "-c", "/etc/supervisord.co
 Dockerfile解析：
 
 - wordpress镜像是基于csphere/php-fpm:5.4来进行构建
-- `ONBUILE`指令生效，把代码文件拷贝到网站根目录下
+- `ONBUILD`指令生效，把代码文件拷贝到网站根目录下
 - `init.sh`脚本对WordPress连接mysql数据库进行配置，固运行wordpress镜像后，只需要进行配置WordPress即可，数据库已准备就绪！
 
 生成WordPress镜像
@@ -136,4 +143,10 @@ ENTRYPOINT ["/bin/echo", "This is test entrypoint"]
 `docker run -it --entrypoint=/bin/bash csphere/ent:0.1`
 测试结果，ENTRYPOINT命令也可以被替换，需要在执行`docker run`时添加`--entrypoint=`参数，此方法多用来进行调试
 
-欢迎访问：[cSphere-希云社区](https://discuss.csphere.cn)
+##更多精彩内容，访问：[cSphere-希云社区](https://discuss.csphere.cn)
+
+说明，文章由[cSphere-希云](https://csphere.cn)所有，转载请整体转载，并保留原文链接，且不得修改原文！
+
+转载，请联系"cSphere"微信公众号
+
+![](https://discuss.csphere.cn/uploads/default/original/2X/7/72cc34cb366c3c6ae4659bfeb6fc80f4e87be735.jpg)

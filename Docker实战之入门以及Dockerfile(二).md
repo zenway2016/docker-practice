@@ -1,7 +1,16 @@
+#Docker实战之入门以及Dockerfile(二) 
 上一篇[Docker实战之入门以及Dockerfile(一)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%80%29.md)
 
+文章内容，由【[Docker实训课程](https://csphere.cn/training)】[第一讲视频](http://pan.baidu.com/s/1hq2COGc)翻译整理而成
+
+[培训代码](https://github.com/nicescale/docker-training) https://github.com/nicescale/docker-training
+
+[虚拟机镜像](http://market.aliyun.com/products/56014007/jxsc000181.html) http://market.aliyun.com/products/56014007/jxsc000181.html
 ##中间件镜像
 
+培训代码 https://github.com/nicescale/docker-training
+
+虚拟机镜像 http://market.aliyun.com/products/56014007/jxsc000181.html
 ##csphere/php-fpm:5.4
 
 ```
@@ -294,3 +303,9 @@ MariaDB [(none)]> show databases;
 验证结果: 只要保证数据在，重新创建一个容器挂载回之前的数据目录，业务即可恢复（容器可随意删除、创建）
 
 下一篇[Docker实战之入门以及Dockerfile(三)](https://github.com/billycyzhang/docker-practice/blob/master/Docker%E5%AE%9E%E6%88%98%E4%B9%8B%E5%85%A5%E9%97%A8%E4%BB%A5%E5%8F%8ADockerfile%28%E4%B8%89%29.md)
+***
+说明，文章由[cSphere-希云](https://csphere.cn)所有，转载请整体转载，并保留原文链接，且不得修改原文！
+
+转载，请联系"cSphere"微信公众号
+
+![](https://discuss.csphere.cn/uploads/default/original/2X/7/72cc34cb366c3c6ae4659bfeb6fc80f4e87be735.jpg)
