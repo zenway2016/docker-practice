@@ -1,5 +1,8 @@
 
 #Docker实战之入门以及Dockerfile(一) 
+
+![](https://discuss.csphere.cn/uploads/default/optimized/2X/2/22371761e7ceb782663b7c2ccc39f6bc9714e427_1_604x500.jpg)
+
 文章内容，由【[Docker实训课程](https://csphere.cn/training)】[第一讲视频](http://pan.baidu.com/s/1hq2COGc)翻译整理而成
 
 [培训代码](https://github.com/nicescale/docker-training) https://github.com/nicescale/docker-training
@@ -47,7 +50,7 @@
 > 通过docker pull命令可以把Registry上的docker镜像，下载到服务器本地
 
 > 通过docker push命令可以把服务器本地的docker镜像，上传到Registry上
-> 
+
 **Registry在构建自动化平台，起着非常重要的作用！**
 
 ![](https://discuss.csphere.cn/uploads/default/optimized/2X/6/6643a54f646047a9dbf31cce424408b4d3fe5ee3_1_666x500.jpg)
