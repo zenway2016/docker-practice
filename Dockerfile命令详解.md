@@ -13,7 +13,7 @@ instruction 不区分大小写，推荐用大写，以免和其他参数冲突
 
 ## FROM
 
-格式：FROM <image>:<tag>
+格式：FROM \<image\>:\<tag\>
 
 Dockerfile中的第一条指令必须是FROM，FROM指令指定了构建镜像的base镜像
 
