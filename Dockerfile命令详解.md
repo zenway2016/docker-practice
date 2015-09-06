@@ -69,16 +69,4 @@ ENTRYPOINT命令也是容器启动时加载的命令，在Dockerfile中如果有
 格式：ONBUILD [INSTRUCTION]
 
 ONBUILD命令在生成应用镜像时非常重要，一般会在中间件镜像中写一个触发器命令，当构建应用镜像FROM中间件镜像的时候，此触发器命令会在构建应用镜像的时候生效并执行。
-# 微镜像，希云造
 
-## 希云推出全球首创的微镜像服务
-
-2015年9月6日，希云推出全球首创的[微镜像服务](ttp://csphere.cn/hub)。http://csphere.cn/hub
-
-Docker生态系统中一个非常关键的部分 -- 
-<html>
-<body>
-<p><font size="10" color="red">镜像</font></p>
-</body>
-</html>
-Docker公司非常注重DockerHub的建设。到目前为止，DockerHub上的镜像总数已经达到了150000多个，随便搜索一下，各种镜像琳琅满目。从基础操作系统，到各种编程语言，各种数据库，各种开源应用软件，以及各类工具，应有尽有。
